@@ -73,11 +73,24 @@ aside {
     margin-top: 20px;
 }
 
-aside h2, aside h3 {
-    color: #008000;
+aside section {
+    background-color: white;
+    border: 1px solid #008000;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
+aside h3 {
+    background-color: #008000;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
 }
 
 aside a {
+    display: inline-block;
+    padding: 0.5rem;
     color: #333;
     text-decoration: none;
 }
+
